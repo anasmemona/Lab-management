@@ -1,0 +1,149 @@
+
+#carouselExampleInterval img {
+ height: 500px;
+}
+body {
+ background-color: #f1f1f1;
+ font-family: 'Arial', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+.jumbotron {
+       background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,179,252,1) 100%);
+       color: white;
+   }
+.feature-icon {
+       font-size: 3em;
+       color: #007bff;
+   }
+   .feature-title {
+ font-size: 1.5em;
+ font-weight: bold;
+}
+body {
+  background-color: #f7f9fc;
+  margin-top: 0px;
+}
+   .anas{
+     background-color: #f5f5f5;
+   }
+.logo{
+   width: 90px;
+}
+.container {
+ width: 90%;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 1rem;
+}
+.text-center {
+ text-align: center;
+}
+.mb-5 {
+ margin-bottom: 3rem;
+}
+.features-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 1rem;
+}
+@keyframes rotateFrontBack {
+       0% {
+           transform: rotateY(0deg);
+           background-color: #ffffff;
+           color: #000000;
+       }
+       100% {
+           transform: rotateY(360deg);
+           background-color: #000000;
+           color: #ffffff;
+       }
+   }
+.features {
+ background-color: #ffffff;
+ border-radius: 12px;
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ padding: 2rem;
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+ transition: transform 2s, background-color 2s, color 2s;
+ transform-style: preserve-3d;
+}
+.features:hover {
+       animation: rotateFrontBack 1s forwards;
+   }   
+
+.bg-body-secondary {
+ background-color: #f4f4f4;
+ padding: 2rem 0;
+}
+
+@keyframes fadeLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-left-on-scroll {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+  
+
+  .fade-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .logo{
+    width: 90px;
+}
+.thank-you-message {
+  margin-top: 100px;
+  text-align: center;
+}
+.thank-you-message h1 {
+  font-size: 3rem;
+  color: #28a745; /* Bootstrap's success color */
+}
+.thank-you-message p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+body {
+  background-color: #f7f9fc;
+  margin-top: 0px;
+}
+.login-panel {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-panel .form-control {
+  border-radius: 20px;
+}
+.login-panel .btn-primary {
+  border-radius: 20px;
+}
+.login-panel .form-group {
+  margin-bottom: 1.5rem;
+}
+.login-panel h2 {
+  margin-bottom: 2rem;
+}
+.login-panel p {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+.logo{
+width: 90px;
+}
